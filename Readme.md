@@ -5,7 +5,7 @@
 
 This GIT Tutorial focuses on explaining simple GIT concepts and conflicts. 
 
-This repository has all the necessary issues to perform each tutorial step and should be used as a master that should be forked whenever the tutorial takes place. 
+This repository has all the necessary issues to perform each tutorial step and should be used as a master that is forked whenever the tutorial takes place. 
 
 Tutorial steps are not included in this repository.
 
