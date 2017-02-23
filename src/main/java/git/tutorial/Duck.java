@@ -55,5 +55,9 @@ public class Duck extends Animal {
     void eat(){
         
     }
+    
+    private String name(){
+        return "Duck Donald.";
+    }
 
 }
