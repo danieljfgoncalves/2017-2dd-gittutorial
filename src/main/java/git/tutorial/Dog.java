@@ -23,8 +23,7 @@ public class Dog extends Animal {
         System.out.println("Auff auff");
     }
 
-
-    public void whipTail(int howMuch){
+    public void whipTail(int howMuch) {
         System.out.printf("I'll whip my tail %d times!", howMuch);
     }
 
@@ -32,8 +31,12 @@ public class Dog extends Animal {
     public int numberOfLegs() {
         return numberOfLegs;
     }
-    
+
     public void run() {
         System.out.println("tac tac tac tac ...");
+    }
+
+    public void walk() {
+        System.out.println("tuc tuc tuc tuc ...");
     }
 }
