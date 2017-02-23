@@ -12,6 +12,10 @@ package git.tutorial;
 public class Cricket extends Animal {
 
     private static final int NUMBER_OF_LEGS = 4;
+    
+    private void test() {
+        String x = "test";
+    }
 
     public Cricket() {
     }
@@ -20,8 +24,17 @@ public class Cricket extends Animal {
         System.out.println("cri cri");
     }
 
+    private void something() {
+        //this is just a demo
+    }
+
+    public int numberOfAntenas() {
+        return 2;
+    }
+
     @Override
     public int numberOfLegs() {
         return NUMBER_OF_LEGS;
     }
+
 }
