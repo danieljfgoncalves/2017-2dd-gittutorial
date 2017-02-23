@@ -18,6 +18,10 @@ public class Cow extends Animal {
         throw new IllegalArgumentException("No milk available");
     }
     
+    public void sleep(){
+        System.out.println("zzz");
+    }
+    
     public void eatGrass(int hours){
         System.out.println("nhamnham");
         makeSound(1);
