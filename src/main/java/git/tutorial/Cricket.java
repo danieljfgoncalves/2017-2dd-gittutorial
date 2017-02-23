@@ -33,4 +33,8 @@ public class Cricket extends Animal {
         return NUMBER_OF_LEGS;
     }
 
+    private void nova() {
+        int y = 0;
+        y++;
+    }
 }
