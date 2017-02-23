@@ -19,4 +19,13 @@ public class Duck extends Animal {
 
     void sleep() {
     }
+    
+    public void swim() {
+    }
+    
+    public void fly() {
+    }
+
+    void layEgg() {
+    }
 }
