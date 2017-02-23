@@ -7,8 +7,13 @@ public class Duck extends Animal {
 
     private int size;
     
+    private static final String DECENT_OWNER = "Meireles";
+
+    private String owner;
+
     public Duck() {
         size = 30;
+        owner = "Miguel";
     }
 
     public void makeSound(int loudness) {
@@ -27,6 +32,10 @@ public class Duck extends Animal {
         makeSound(1);
     }
 
+    private void setDecentOwner() {
+        owner = DECENT_OWNER;
+    }
+
     public void swim() {
     }
 
@@ -39,4 +48,9 @@ public class Duck extends Animal {
     public int size() {
         return size;
     }
+
+    public String owner() {
+        return owner;
+    }
+
 }
