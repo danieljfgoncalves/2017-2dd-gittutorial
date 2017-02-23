@@ -11,10 +11,17 @@ package git.tutorial;
  */
 public class Cricket extends Animal {
 
+    private static final int NUMBER_OF_LEGS = 4;
+
     public Cricket() {
     }
 
     public void makeSound() {
         System.out.println("cri cri");
+    }
+
+    @Override
+    public int numberOfLegs() {
+        return NUMBER_OF_LEGS;
     }
 }

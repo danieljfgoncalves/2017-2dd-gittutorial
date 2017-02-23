@@ -19,4 +19,7 @@ public class Duck extends Animal {
     
     public void swim() {
     }
+    
+    public void fly() {
+    }
 }
