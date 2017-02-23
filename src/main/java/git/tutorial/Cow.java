@@ -22,6 +22,11 @@ public class Cow extends Animal {
         System.out.println("zzz");
     }
     
+    public Cow giveBirth(){
+        Cow child = new Cow();
+        return child;
+    }
+    
     public void eatGrass(int hours){
         System.out.println("nhamnham");
         makeSound(1);
