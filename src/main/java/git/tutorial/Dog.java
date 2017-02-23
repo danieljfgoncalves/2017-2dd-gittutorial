@@ -27,4 +27,8 @@ public class Dog extends Animal {
     public int numberOfLegs() {
         return numberOfLegs;
     }
+    
+    public void run() {
+        System.out.println("tac tac tac tac ...");
+    }
 }
