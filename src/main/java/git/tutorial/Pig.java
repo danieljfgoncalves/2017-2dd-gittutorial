@@ -9,9 +9,17 @@ package git.tutorial;
  *
  * @author Pedro Fernandes
  */
-public class Pig{
+public class Pig extends Animal{
 
     public Pig () {
     }
-    
+
+    public void makeSound(int loudness) {
+        System.out.println("oinc oinc");
+    }
+
+    public int numberOfLegs() {
+        return 5;
+    }
+
 }
