@@ -19,4 +19,7 @@ public class Duck extends Animal {
 
     void fly() {
     }
+
+    void layEgg() {
+    }
 }
