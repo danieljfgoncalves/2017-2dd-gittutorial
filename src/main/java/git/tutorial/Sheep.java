@@ -8,7 +8,7 @@ public class Sheep extends Animal {
 
     }
 
-    public void makeSound() {
+    public void makeSound(int loudness) {
         System.out.println("mêêê");
     }
 

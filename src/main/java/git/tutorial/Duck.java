@@ -2,18 +2,19 @@ package git.tutorial;
 
 /**
  * Created by j040_ on 23/02/2017.
- *
- * @author Ivo Ferro, 1151159
  */
 public class Duck extends Animal {
-
+    
     private static final int LEGS_NUMBER = 2;
 
+    private String owner;
+
     public Duck() {
+        owner = "Miguel";
     }
 
-    public void makeSound() {
-        System.out.println("qua qua qua");
+    public void makeSound(int loudness) {
+        System.out.println("qua qua");
     }
 
     @Override
@@ -23,21 +24,26 @@ public class Duck extends Animal {
 
     void sleep() {
     }
-    
+
     void quack() {
-        makeSound();
+        makeSound(1);
     }
-    
+
     public void swim() {
     }
-    
+
     public void fly() {
     }
 
     void layEgg() {
     }
+
+    public String owner() {
+        return owner;
+    }
     
     private void color(){
         System.out.println("yellow");
     }
+
 }

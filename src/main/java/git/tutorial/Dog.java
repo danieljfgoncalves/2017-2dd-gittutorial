@@ -18,7 +18,7 @@ public class Dog extends Animal {
     }
 
     @Override
-    public void makeSound() {
+    public void makeSound(int loudness) {
         //TODO not all dogs bark the same way
         System.out.println("Auff auff");
     }
@@ -26,5 +26,9 @@ public class Dog extends Animal {
     @Override
     public int numberOfLegs() {
         return numberOfLegs;
+    }
+    
+    public void run() {
+        System.out.println("tac tac tac tac ...");
     }
 }
