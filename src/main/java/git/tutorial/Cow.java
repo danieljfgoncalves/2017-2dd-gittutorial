@@ -13,6 +13,11 @@ public class Cow extends Animal {
     public void makeSound(int loudness) {
         System.out.println("muuuuu");
     }
+    
+    public void eatGrass(int hours){
+        System.out.println("nhamnham");
+        makeSound(1);
+    }
 
     @Override
     public int numberOfLegs() {
