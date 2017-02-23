@@ -9,7 +9,7 @@ public class Duck extends Animal {
     }
 
     public void makeSound() {
-        System.out.println("qua qua");
+        System.out.println("qua");
     }
 
     @Override
@@ -17,6 +17,15 @@ public class Duck extends Animal {
         return 2;
     }
 
-    void fly() {
+    void sleep() {
+    }
+    
+    public void swim() {
+    }
+    
+    public void fly() {
+    }
+
+    void layEgg() {
     }
 }
