@@ -9,8 +9,13 @@ package git.tutorial;
  *
  * @author USER
  */
-public class Cow{
+public class Cow extends Animal {
 
     public Cow() {
+    }
+
+    @Override
+    public void makeSound() {
+        System.out.println("muuuuu");
     }
 }
