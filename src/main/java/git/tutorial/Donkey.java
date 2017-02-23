@@ -18,10 +18,9 @@ public class Donkey extends Animal{
     System.out.println("ió ió");
     }
 
-  
     @Override
     public int numberOfLegs() {
-        return 25;
+        return 4;
     }
     
 }
