@@ -8,7 +8,7 @@ public class Turkey extends Animal{
     public Turkey() {
     }
 
-    public void makeSound() {
+    public void makeSound(int loudness) {
         System.out.println("glu glu");
     }
 

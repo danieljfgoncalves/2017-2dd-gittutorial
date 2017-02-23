@@ -8,7 +8,7 @@ public class Duck extends Animal {
     public Duck() {
     }
 
-    public void makeSound() {
+    public void makeSound(int loudness) {
         System.out.println("qua qua");
     }
 

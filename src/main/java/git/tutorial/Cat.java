@@ -15,7 +15,7 @@ public class Cat extends Animal {
     public Cat() {
     }
 
-    public void makeSound() {
+    public void makeSound(int loudness) {
         System.out.println("miau");
     }
 

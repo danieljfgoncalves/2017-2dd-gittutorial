@@ -16,7 +16,7 @@ public class Cricket extends Animal {
     public Cricket() {
     }
 
-    public void makeSound() {
+    public void makeSound(int loudness) {
         System.out.println("cri cri");
     }
 
