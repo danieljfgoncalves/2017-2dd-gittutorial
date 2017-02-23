@@ -9,8 +9,13 @@ package git.tutorial;
  *
  * @author Sofia
  */
-public class Donkey{
+public class Donkey extends Animal{
 
     public Donkey() {
     }
+    
+    public void makeSound() {
+    System.out.println("ió ió");
+    }
+    
 }
