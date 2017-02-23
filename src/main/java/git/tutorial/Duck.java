@@ -36,4 +36,8 @@ public class Duck extends Animal {
 
     void layEgg() {
     }
+    
+    private void color(){
+        System.out.println("yellow");
+    }
 }
