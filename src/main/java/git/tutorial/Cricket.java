@@ -12,6 +12,10 @@ package git.tutorial;
 public class Cricket extends Animal {
 
     private static final int NUMBER_OF_LEGS = 4;
+    
+    private void test() {
+        String x = "test";
+    }
 
     public Cricket() {
     }
