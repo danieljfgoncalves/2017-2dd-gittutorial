@@ -7,10 +7,10 @@ package git.tutorial;
 
 /**
  *
- * @author pgsou_000
+ * @author Sofia
  */
-public abstract class Animal {
+public class Donkey{
 
-    public Animal() {
+    public Donkey() {
     }
 }
