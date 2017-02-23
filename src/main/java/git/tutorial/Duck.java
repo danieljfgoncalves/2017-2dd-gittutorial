@@ -51,5 +51,9 @@ public class Duck extends Animal {
     private void color(){
         System.out.println("yellow");
     }
+    
+    void eat(){
+        
+    }
 
 }
