@@ -16,4 +16,13 @@ public class Duck extends Animal {
     public int numberOfLegs() {
         return 2;
     }
+    
+    public void swim() {
+    }
+    
+    public void fly() {
+    }
+
+    void layEgg() {
+    }
 }
