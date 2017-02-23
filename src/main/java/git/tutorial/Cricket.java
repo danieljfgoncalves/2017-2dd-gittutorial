@@ -9,8 +9,12 @@ package git.tutorial;
  *
  * @author Henrique Oliveira [1150738@isep.ipp.pt]
  */
-public class Cricket{
+public class Cricket extends Animal {
 
     public Cricket() {
+    }
+
+    public void makeSound() {
+        System.out.println("cri cri");
     }
 }
