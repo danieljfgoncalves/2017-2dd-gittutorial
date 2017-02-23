@@ -5,7 +5,12 @@ package git.tutorial;
  */
 public class Duck extends Animal {
 
+    private static final String DECENT_OWNER = "Meireles";
+
+    private String owner;
+
     public Duck() {
+        owner = "Miguel";
     }
 
     public void makeSound(int loudness) {
@@ -24,6 +29,10 @@ public class Duck extends Animal {
         makeSound(1);
     }
 
+    private void setDecentOwner() {
+        owner = DECENT_OWNER;
+    }
+
     public void swim() {
     }
 
@@ -32,4 +41,9 @@ public class Duck extends Animal {
 
     void layEgg() {
     }
+
+    public String owner() {
+        return owner;
+    }
+
 }
