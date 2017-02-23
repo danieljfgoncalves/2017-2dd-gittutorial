@@ -5,7 +5,10 @@ package git.tutorial;
  */
 public class Duck extends Animal {
 
+    private int size;
+    
     public Duck() {
+        size = 30;
     }
 
     public void makeSound(int loudness) {
@@ -31,5 +34,9 @@ public class Duck extends Animal {
     }
 
     void layEgg() {
+    }
+    
+    public int size() {
+        return size;
     }
 }
