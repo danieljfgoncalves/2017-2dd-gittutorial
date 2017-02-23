@@ -2,19 +2,23 @@ package git.tutorial;
 
 /**
  * Created by j040_ on 23/02/2017.
+ *
+ * @author Ivo Ferro, 1151159
  */
 public class Duck extends Animal {
+
+    private static final int LEGS_NUMBER = 2;
 
     public Duck() {
     }
 
     public void makeSound() {
-        System.out.println("qua");
+        System.out.println("qua qua qua");
     }
 
     @Override
     public int numberOfLegs() {
-        return 2;
+        return LEGS_NUMBER;
     }
 
     void sleep() {
