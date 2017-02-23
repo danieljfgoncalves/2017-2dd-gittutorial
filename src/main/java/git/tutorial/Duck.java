@@ -19,10 +19,14 @@ public class Duck extends Animal {
 
     void sleep() {
     }
-    
+
+    void quack() {
+        makeSound(1);
+    }
+
     public void swim() {
     }
-    
+
     public void fly() {
     }
 
