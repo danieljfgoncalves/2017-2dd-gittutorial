@@ -5,6 +5,8 @@ package git.tutorial;
  */
 public class Duck extends Animal {
     
+    private static final String DECENT_OWNER = "Meireles";
+    
     private static final int LEGS_NUMBER = 2;
 
     private String owner;
@@ -20,6 +22,10 @@ public class Duck extends Animal {
     @Override
     public int numberOfLegs() {
         return LEGS_NUMBER;
+    }
+    
+    private void setDecentOwner() {
+        owner = DECENT_OWNER;
     }
 
     void sleep() {

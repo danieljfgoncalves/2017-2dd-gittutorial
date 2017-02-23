@@ -12,9 +12,10 @@ package git.tutorial;
 public class Cricket extends Animal {
 
     private static final int NUMBER_OF_LEGS = 4;
-    
+
     private void test() {
         String x = "test";
+        String y = "new";
     }
 
     public Cricket() {
@@ -37,4 +38,8 @@ public class Cricket extends Animal {
         return NUMBER_OF_LEGS;
     }
 
+    private void nova() {
+        int y = 0;
+        y++;
+    }
 }
