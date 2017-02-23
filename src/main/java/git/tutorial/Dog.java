@@ -23,6 +23,11 @@ public class Dog extends Animal {
         System.out.println("Auff auff");
     }
 
+
+    public void whipTail(int howMuch){
+        System.out.printf("I'll whip my tail %d times!", howMuch);
+    }
+
     @Override
     public int numberOfLegs() {
         return numberOfLegs;
