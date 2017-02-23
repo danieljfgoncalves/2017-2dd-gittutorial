@@ -20,6 +20,10 @@ public class Cricket extends Animal {
         System.out.println("cri cri");
     }
 
+    public int numberOfAntenas() {
+        return 2;
+    }
+
     @Override
     public int numberOfLegs() {
         return NUMBER_OF_LEGS;
