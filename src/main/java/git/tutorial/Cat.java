@@ -24,5 +24,6 @@ public class Cat extends Animal {
         return 4;
     }
     
-    
+    public void walk() {
+    }
 }
