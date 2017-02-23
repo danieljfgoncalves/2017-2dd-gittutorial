@@ -17,6 +17,11 @@ public class Cow extends Animal {
     public int giveMilk(){
         throw new IllegalArgumentException("No milk available");
     }
+    
+    public void eatGrass(int hours){
+        System.out.println("nhamnham");
+        makeSound(1);
+    }
 
     @Override
     public int numberOfLegs() {
