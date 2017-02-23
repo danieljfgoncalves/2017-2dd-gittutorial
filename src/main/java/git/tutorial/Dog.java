@@ -19,7 +19,7 @@ public class Dog extends Animal{
 
     @Override
     public void makeSound() {
-        System.out.println("au au");
+        System.out.println("Auff auff");
     }
 
     @Override
