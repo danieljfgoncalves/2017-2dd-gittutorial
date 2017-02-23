@@ -15,6 +15,5 @@ public class Duck extends Animal {
     @Override
     public int numberOfLegs() {
         return 2;
-    }    
-    
+    }
 }
