@@ -62,5 +62,9 @@ public class Duck extends Animal {
     public int size() {
         return size;
     }
+    
+    private String name(){
+        return "Duck Donald.";
+    }
 
 }
