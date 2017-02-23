@@ -23,6 +23,10 @@ public class Cat extends Animal {
     public int numberOfLegs() {
         return 4;
     }
+
+    public void walk() {
+        
+    }
     
     public void eatMouse() {
         System.out.println("hmmmmmmmmmmmmm taaaaaaastyyyyyyy");
@@ -31,4 +35,5 @@ public class Cat extends Animal {
     public void blablaTest(){
         String s  = "blabla";
     }
+
 }

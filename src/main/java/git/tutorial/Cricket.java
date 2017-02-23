@@ -16,6 +16,7 @@ public class Cricket extends Animal {
     private void test() {
         String x = "test";
         String y = "new";
+        int i = 0;
     }
 
     public Cricket() {
