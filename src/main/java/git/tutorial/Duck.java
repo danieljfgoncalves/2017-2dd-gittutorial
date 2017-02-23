@@ -11,4 +11,9 @@ public class Duck extends Animal {
     public void makeSound() {
         System.out.println("qua qua");
     }
+
+    @Override
+    public int numberOfLegs() {
+        return 2;
+    }
 }
