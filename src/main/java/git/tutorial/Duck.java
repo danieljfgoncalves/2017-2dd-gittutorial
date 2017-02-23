@@ -45,5 +45,9 @@ public class Duck extends Animal {
     public String owner() {
         return owner;
     }
+    
+    void eat(){
+        
+    }
 
 }
