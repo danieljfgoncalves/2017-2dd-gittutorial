@@ -16,4 +16,9 @@ public class Duck extends Animal {
     public int numberOfLegs() {
         return 2;
     }
+    
+    void quack() {
+        makeSound();
+    }
+    
 }
