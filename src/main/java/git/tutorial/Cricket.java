@@ -24,8 +24,13 @@ public class Cricket extends Animal {
         //this is just a demo
     }
 
+    public int numberOfAntenas() {
+        return 2;
+    }
+
     @Override
     public int numberOfLegs() {
         return NUMBER_OF_LEGS;
     }
+
 }
