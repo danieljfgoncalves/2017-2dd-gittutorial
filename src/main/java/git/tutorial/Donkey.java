@@ -17,5 +17,10 @@ public class Donkey extends Animal{
     public void makeSound() {
     System.out.println("ió ió");
     }
+
+    @Override
+    public int numberOfLegs() {
+        return 4;
+    }
     
 }
