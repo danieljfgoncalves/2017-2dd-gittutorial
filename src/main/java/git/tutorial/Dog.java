@@ -11,12 +11,20 @@ package git.tutorial;
  */
 public class Dog extends Animal {
 
+    private int numberOfLegs;
+
     public Dog() {
+        numberOfLegs = 4;
     }
 
     @Override
     public void makeSound() {
         //TODO not all dogs bark the same way
-        System.out.println("au au");
+        System.out.println("Auff auff");
+    }
+
+    @Override
+    public int numberOfLegs() {
+        return numberOfLegs;
     }
 }
