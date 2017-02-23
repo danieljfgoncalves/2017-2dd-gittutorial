@@ -5,11 +5,14 @@ package git.tutorial;
  */
 public class Duck extends Animal {
 
+    private String owner;
+
     public Duck() {
+        owner = "Miguel";
     }
 
-    public void makeSound() {
-        System.out.println("qua");
+    public void makeSound(int loudness) {
+        System.out.println("qua qua");
     }
 
     @Override
@@ -19,13 +22,22 @@ public class Duck extends Animal {
 
     void sleep() {
     }
-    
+
+    void quack() {
+        makeSound(1);
+    }
+
     public void swim() {
     }
-    
+
     public void fly() {
     }
 
     void layEgg() {
     }
+
+    public String owner() {
+        return owner;
+    }
+
 }

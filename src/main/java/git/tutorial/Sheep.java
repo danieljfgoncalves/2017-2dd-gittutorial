@@ -3,16 +3,17 @@ package git.tutorial;
 /**
  * Created by j040_ on 23/02/2017.
  */
-public class Turkey extends Animal{
+public class Sheep extends Animal {
+    public Sheep() {
 
-    public Turkey() {
     }
 
     public void makeSound(int loudness) {
-        System.out.println("glu glu");
+        System.out.println("mêêê");
     }
 
     public int numberOfLegs() {
-        return 2;
+        return 4;
     }
+
 }

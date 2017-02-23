@@ -11,7 +11,7 @@ public class Rooster extends Animal {
     public Rooster() {
     }
 
-    public void makeSound() {
+    public void makeSound(int loudness) {
         System.out.println("cócórócócó");
     }
 

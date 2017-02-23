@@ -7,20 +7,12 @@ package git.tutorial;
 
 /**
  *
- * @author Sofia
+ * @author João
  */
-public class Donkey extends Animal{
-
-    public Donkey() {
-    }
+public class Bird {
     
-    public void makeSound(int loudness) {
-    System.out.println("ió ió");
-    }
-
-    @Override
-    public int numberOfLegs() {
-        return 4;
+    public Bird(){
+        
     }
     
 }
