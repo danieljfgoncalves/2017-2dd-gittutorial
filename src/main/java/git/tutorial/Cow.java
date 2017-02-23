@@ -18,6 +18,10 @@ public class Cow extends Animal {
         throw new IllegalArgumentException("No milk available");
     }
     
+    public void sleep(){
+        System.out.println("zzz");
+    }
+    
     public Cow giveBirth(){
         Cow child = new Cow();
         return child;
