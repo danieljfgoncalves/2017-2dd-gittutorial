@@ -24,5 +24,9 @@ public class Cat extends Animal {
         return 4;
     }
     
+    public void eatMouse() {
+        System.out.println("hmmmmmmmmmmmmm taaaaaaastyyyyyyy");
+    }
+    
     
 }
