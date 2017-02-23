@@ -7,10 +7,10 @@ package git.tutorial;
 
 /**
  *
- * @author Henrique Oliveira [1150738@isep.ipp.pt]
+ * @author USER
  */
-public class Cricket{
+public class Cow{
 
-    public Cricket() {
+    public Cow() {
     }
 }

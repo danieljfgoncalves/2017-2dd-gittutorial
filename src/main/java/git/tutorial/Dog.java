@@ -7,10 +7,15 @@ package git.tutorial;
 
 /**
  *
- * @author Henrique Oliveira [1150738@isep.ipp.pt]
+ * @author Meireles
  */
-public class Cricket{
+public class Dog extends Animal{
 
-    public Cricket() {
+    public Dog() {
+    }
+
+    @Override
+    public void makeSound() {
+        System.out.println("au au");
     }
 }

@@ -9,8 +9,10 @@ package git.tutorial;
  *
  * @author pgsou_000
  */
-public class Animal {
+public abstract class Animal {
 
     public Animal() {
     }
+
+    public abstract void makeSound();
 }
