@@ -24,5 +24,9 @@ public class Cat extends Animal {
         return 4;
     }
     
+    public void blablaTest(){
+        String s  = "blabla";
+    }
+    
     
 }
