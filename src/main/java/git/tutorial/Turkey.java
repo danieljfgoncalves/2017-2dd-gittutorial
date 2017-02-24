@@ -5,6 +5,8 @@ package git.tutorial;
  */
 public class Turkey extends Animal {
 
+    private static int LEGS_OF_TURKEY = 9;
+
     public Turkey() {
     }
 
@@ -17,15 +19,27 @@ public class Turkey extends Animal {
     }
 
     public int numberOfLegs() {
+        int legs = LEGS_OF_TURKEY;
+        legs = legs + 2;
+        legs = legs - LEGS_OF_TURKEY;
         return 2;
+    }
+
+    public void eat() {
+        System.out.println("hummmmm tasty!!!!!");
+    }
+    
+    public void goToDinnerTable() {
+        throw new UnsupportedOperationException("It is not Christmas ou Thanksgiving yet.");
     }
 
     @Override
     public void walk() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
-    public void sleep(){
+
+    public void sleep() {
+
         System.out.println("zzzzzzzzzzzzzz");
     }
 }
