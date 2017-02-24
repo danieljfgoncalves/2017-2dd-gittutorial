@@ -22,12 +22,16 @@ public class Bird extends Animal {
         System.out.println("piu piu");
         System.out.println("pipipipipipipipipiipiuuuuuuu");
     }
+    
+    public void fly(){
+        System.out.println("flying");
+    }
 
     @Override
     public int numberOfLegs() {
         return NUMBEROFLEGS;
     }
-
+    
     @Override
     public void walk() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
