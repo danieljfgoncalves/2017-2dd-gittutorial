@@ -25,6 +25,10 @@ public class Turkey extends Animal {
         return 2;
     }
 
+    public void eat() {
+        System.out.println("hummmmm tasty!!!!!");
+    }
+    
     public void goToDinnerTable() {
         throw new UnsupportedOperationException("It is not Christmas ou Thanksgiving yet.");
     }
@@ -35,6 +39,7 @@ public class Turkey extends Animal {
     }
 
     public void sleep() {
+
         System.out.println("zzzzzzzzzzzzzz");
     }
 }
