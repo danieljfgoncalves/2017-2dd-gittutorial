@@ -14,7 +14,7 @@ public abstract class Animal {
     public Animal() {
     }
 
-    /** **/
+    // some comment
     public boolean isOdd(int x) {
         System.out.println("Comentário qualquer!!!");
         return x % 2 != 0;
@@ -36,6 +36,8 @@ public abstract class Animal {
 
     /**
      * returns the age of the animal
+     *
+     * FIXME this needs to be handled correctly
      *
      * @return the age of the animal
      */

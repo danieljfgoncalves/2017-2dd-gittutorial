@@ -9,6 +9,9 @@ public class Duck extends Animal {
     
     private int size;
     
+    private static final int DEFAULT_ONE = 1;
+    private static final int DEFAULT_TWO = 2;
+    
     private static final int LEGS_NUMBER = 2;
 
     private String owner;

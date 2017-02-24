@@ -12,7 +12,7 @@ package git.tutorial;
 public class Bird extends Animal {
 
     private static final int NUMBEROFLEGS = 2;
-    private static final int SIZENOZZLE = 2;
+    private static final int SIZE_BEAK = 2;
 
     public Bird() {
 
@@ -36,9 +36,9 @@ public class Bird extends Animal {
     public void walk() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+    
+    private int beakSize(){
+        return SIZE_BEAK;
 
-
-    private int nozzleSize(){
-        return SIZENOZZLE;
     }
 }
