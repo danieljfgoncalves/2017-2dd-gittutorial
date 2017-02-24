@@ -74,4 +74,8 @@ public class Dog extends Animal {
     public void sleep(int hours) {
         System.out.println("Dreaming about chasing cats for " + hours + " hours");
     }
+    
+    public Dog giveBirth(){
+        return new Dog();
+    }
 }
