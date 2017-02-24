@@ -35,11 +35,11 @@ public class Pig extends Animal {
     }
 
     public void mindOfAPig() {
-        System.out.println("I believe i can fly!");
+        System.out.println("My dream is to be the tastiest bacon!");
     }
 
     public String name() {
-        return "piggy";
+        return "spider pig";
     }
     
     public void food(){
