@@ -9,10 +9,25 @@ package git.tutorial;
  *
  * @author João
  */
-public class Bird {
-    
-    public Bird(){
-        
+public class Bird extends Animal {
+
+    private static final int NUMBEROFLEGS = 2;
+
+    public Bird() {
+
     }
-    
+
+    public void makeSound(int son) {
+        System.out.println("piu piu");
+    }
+
+    @Override
+    public int numberOfLegs() {
+        return NUMBEROFLEGS;
+    }
+
+    @Override
+    public void walk() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

@@ -16,6 +16,7 @@ public class Cricket extends Animal {
     private void test() {
         String x = "test";
         String y = "new";
+        int i = 0;
     }
 
     public Cricket() {
@@ -41,5 +42,10 @@ public class Cricket extends Animal {
     private void nova() {
         int y = 0;
         y++;
+    }
+
+    @Override
+    public void walk() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }

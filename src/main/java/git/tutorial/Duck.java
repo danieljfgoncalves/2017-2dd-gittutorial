@@ -4,12 +4,17 @@ package git.tutorial;
  * Created by j040_ on 23/02/2017.
  */
 public class Duck extends Animal {
-
+    
     private static final String DECENT_OWNER = "Meireles";
+    
+    private int size;
+    
+    private static final int LEGS_NUMBER = 2;
 
     private String owner;
 
     public Duck() {
+        size = 30;
         owner = "Miguel";
     }
 
@@ -19,7 +24,11 @@ public class Duck extends Animal {
 
     @Override
     public int numberOfLegs() {
-        return 2;
+        return LEGS_NUMBER;
+    }
+    
+    private void setDecentOwner() {
+        owner = DECENT_OWNER;
     }
 
     void sleep() {
@@ -27,10 +36,6 @@ public class Duck extends Animal {
 
     void quack() {
         makeSound(1);
-    }
-
-    private void setDecentOwner() {
-        owner = DECENT_OWNER;
     }
 
     public void swim() {
@@ -44,6 +49,27 @@ public class Duck extends Animal {
 
     public String owner() {
         return owner;
+    }
+    
+    private void color(){
+        System.out.println("yellow");
+    }
+    
+    void eat(){
+        
+    }
+    
+    public int size() {
+        return size;
+    }
+    
+    private String name(){
+        return "Duck Donald.";
+    }
+
+    @Override
+    public void walk() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     public void blink() {
