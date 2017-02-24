@@ -18,6 +18,10 @@ public class Duck extends Animal {
         owner = "Miguel";
     }
 
+    public void shake() {
+        System.out.println("I'm shaking my booty! Qua qua");
+    }
+    
     public void makeSound(int loudness) {
         System.out.println("qua qua");
     }
