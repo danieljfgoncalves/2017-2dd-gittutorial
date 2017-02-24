@@ -8,6 +8,10 @@ public class Turkey extends Animal {
     public Turkey() {
     }
 
+    public Turkey haveChild() {
+        return new Turkey();
+    }
+
     public void makeSound(int loudness) {
         System.out.println("glu glu");
     }
