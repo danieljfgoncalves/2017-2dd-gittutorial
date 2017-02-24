@@ -25,12 +25,17 @@ public class Turkey extends Animal {
         return 2;
     }
 
+    public void goToDinnerTable() {
+        throw new UnsupportedOperationException("It is not Christmas ou Thanksgiving yet.");
+    }
+
     @Override
     public void walk() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
-    public void sleep(){
+
+    public void sleep() {
+
         System.out.println("zzzzzzzzzzzzzz");
     }
 }
