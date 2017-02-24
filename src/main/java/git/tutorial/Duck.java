@@ -18,6 +18,10 @@ public class Duck extends Animal {
         owner = "Miguel";
     }
 
+    public void shake() {
+        System.out.println("I'm shaking my booty! Qua qua");
+    }
+    
     public void makeSound(int loudness) {
         System.out.println("qua qua");
     }
@@ -32,6 +36,7 @@ public class Duck extends Animal {
     }
 
     void sleep() {
+        System.out.println("ZzzZzzZzz");
     }
 
     void quack() {
@@ -39,6 +44,7 @@ public class Duck extends Animal {
     }
 
     public void swim() {
+        System.out.println("splash splash");
     }
 
     public void fly() {
@@ -56,7 +62,7 @@ public class Duck extends Animal {
     }
     
     void eat(){
-        
+        System.out.println("mhom mhom");
     }
     
     public int size() {
@@ -80,4 +86,7 @@ public class Duck extends Animal {
         System.out.println("Yupiiiiii!");
     }
 
+    public void swimming() {
+        System.out.println("squah squah!");
+    }
 }
