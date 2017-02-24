@@ -19,6 +19,7 @@ public class Bird extends Animal {
 
     public void makeSound(int son) {
         System.out.println("piu piu");
+        System.out.println("pipipipipipipipipiipiuuuuuuu");
     }
 
     @Override
