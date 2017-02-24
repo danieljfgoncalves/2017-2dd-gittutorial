@@ -9,13 +9,14 @@ package git.tutorial;
  *
  * @author Sofia
  */
-public class Donkey extends Animal {
+public class Donkey extends Animal{
 
     public Donkey() {
     }
-
+    
     public void makeSound(int loudness) {
-        System.out.println("ió ió");
+    System.out.println("ió ió");
+        System.out.println("ióóóóó ióóóóóó");
     }
     
     public int donkeyWalk(int meters){

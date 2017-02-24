@@ -14,7 +14,7 @@ public class Pig extends Animal {
     public String colour(){
         return "pink";
     }
-    
+
     public Pig () {
     }
 
@@ -25,10 +25,20 @@ public class Pig extends Animal {
     public int numberOfLegs() {
         return 5;
     }
+    
+    public void size(){
+    }
 
     @Override
     public void walk() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
+    public void mindOfAPig(){
+        System.out.println("My dream is to be the tastiest BigMac!");
+    }
+    
+    public void food(){
+        System.out.println("everything");
+    }
 }
