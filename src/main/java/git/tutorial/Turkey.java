@@ -8,6 +8,10 @@ public class Turkey extends Animal {
     public Turkey() {
     }
 
+    public Turkey haveChild() {
+        return new Turkey();
+    }
+
     public void makeSound(int loudness) {
         System.out.println("glu glu");
     }
@@ -19,5 +23,9 @@ public class Turkey extends Animal {
     @Override
     public void walk() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+    public void sleep(){
+        System.out.println("zzzzzzzzzzzzzz");
     }
 }

@@ -76,4 +76,8 @@ public class Duck extends Animal {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
+    public void blink() {
+        System.out.println("I'm blinking so hard and I can't stop!");
+    }
+
 }
