@@ -12,7 +12,7 @@ package git.tutorial;
 public class Bird extends Animal {
 
     private static final int NUMBEROFLEGS = 2;
-    private static final int SIZEOFNOZZLE = 2;
+    private static final int SIZENOZZLE = 2;
 
     public Bird() {
 
@@ -38,6 +38,6 @@ public class Bird extends Animal {
     }
     
     private int nozzleSize(){
-        return SIZEOFNOZZLE;
+        return SIZENOZZLE;
     }
 }
