@@ -22,4 +22,7 @@ public class Pig extends Animal{
         return 5;
     }
 
+    public void mindOfAPig(){
+        System.out.println("My dream is to be the tastiest BigMac!");
+    }
 }

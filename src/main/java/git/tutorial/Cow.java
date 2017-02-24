@@ -30,6 +30,7 @@ public class Cow extends Animal {
     public void eatGrass(int hours){
         System.out.println("nhamnham");
         makeSound(1);
+        //TODO nothing
     }
 
     @Override

@@ -16,4 +16,10 @@ public class Sheep extends Animal {
         return 4;
     }
 
+
+    public void forTheConflict(int howBad){
+        for(int i = 0; i < howBad;i++){
+            System.out.println("Very Very Badass conflict");
+        }
+    }
 }

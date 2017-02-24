@@ -27,7 +27,7 @@ public class Cricket extends Animal {
     }
 
     private void something() {
-        //this is just a demo
+        System.out.println("This is something");
     }
 
     public int numberOfAntenas() {
@@ -42,5 +42,7 @@ public class Cricket extends Animal {
     private void nova() {
         int y = 0;
         y++;
+        y++;
+        y--;
     }
 }

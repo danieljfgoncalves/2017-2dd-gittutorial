@@ -16,6 +16,7 @@ public class Donkey extends Animal{
     
     public void makeSound(int loudness) {
     System.out.println("ió ió");
+        System.out.println("ióóóóó ióóóóóó");
     }
 
     @Override

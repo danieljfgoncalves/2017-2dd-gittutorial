@@ -30,6 +30,7 @@ public class Cat extends Animal {
     
     public void eatMouse() {
         System.out.println("hmmmmmmmmmmmmm taaaaaaastyyyyyyy");
+        System.out.println("To much fur");
     }
 
     public void blablaTest(){
