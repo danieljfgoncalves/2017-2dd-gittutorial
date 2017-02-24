@@ -9,13 +9,13 @@ package git.tutorial;
  *
  * @author Sofia
  */
-public class Donkey extends Animal{
+public class Donkey extends Animal {
 
     public Donkey() {
     }
-    
+
     public void makeSound(int loudness) {
-    System.out.println("ió ió");
+        System.out.println("ió ió");
     }
     
     public int donkeyWalk(int meters){
@@ -30,5 +30,10 @@ public class Donkey extends Animal{
     public int numberOfLegs() {
         return 4;
     }
-    
+
+    @Override
+    public void walk() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
 }

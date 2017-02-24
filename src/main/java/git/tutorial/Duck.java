@@ -7,11 +7,14 @@ public class Duck extends Animal {
     
     private static final String DECENT_OWNER = "Meireles";
     
+    private int size;
+    
     private static final int LEGS_NUMBER = 2;
 
     private String owner;
 
     public Duck() {
+        size = 30;
         owner = "Miguel";
     }
 
@@ -54,6 +57,19 @@ public class Duck extends Animal {
     
     void eat(){
         
+    }
+    
+    public int size() {
+        return size;
+    }
+    
+    private String name(){
+        return "Duck Donald.";
+    }
+
+    @Override
+    public void walk() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
 }
