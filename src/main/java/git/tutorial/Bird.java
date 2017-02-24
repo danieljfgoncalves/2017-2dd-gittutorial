@@ -12,6 +12,7 @@ package git.tutorial;
 public class Bird extends Animal {
 
     private static final int NUMBEROFLEGS = 2;
+    private static final int SIZEOFNOZZLE = 2;
 
     public Bird() {
 
@@ -19,10 +20,20 @@ public class Bird extends Animal {
 
     public void makeSound(int son) {
         System.out.println("piu piu");
+        System.out.println("pipipipipipipipipiipiuuuuuuu");
     }
 
     @Override
     public int numberOfLegs() {
         return NUMBEROFLEGS;
+    }
+
+    @Override
+    public void walk() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+    private int nozzleSize(){
+        return SIZEOFNOZZLE;
     }
 }

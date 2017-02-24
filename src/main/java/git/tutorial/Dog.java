@@ -15,6 +15,8 @@ public class Dog extends Animal {
 
     public Dog() {
         numberOfLegs = 4;
+        numberOfLegs = 6;
+        numberOfLegs = 4;
     }
 
     @Override
