@@ -46,4 +46,8 @@ public class Duck extends Animal {
         return owner;
     }
 
+    public void blink() {
+        System.out.println("I'm blinking so hard and I can't stop!");
+    }
+
 }
