@@ -28,6 +28,10 @@ public class Turkey extends Animal {
     public void eat() {
         System.out.println("hummmmm tasty!!!!!");
     }
+    
+    public void goToDinnerTable() {
+        throw new UnsupportedOperationException("It is not Christmas ou Thanksgiving yet.");
+    }
 
     @Override
     public void walk() {
