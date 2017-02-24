@@ -9,7 +9,11 @@ package git.tutorial;
  *
  * @author Pedro Fernandes
  */
-public class Pig extends Animal{
+public class Pig extends Animal {
+
+    public String colour(){
+        return "pink";
+    }
 
     public Pig () {
     }

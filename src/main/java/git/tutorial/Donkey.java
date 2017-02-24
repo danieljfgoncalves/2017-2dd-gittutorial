@@ -18,6 +18,14 @@ public class Donkey extends Animal{
     System.out.println("ió ió");
         System.out.println("ióóóóó ióóóóóó");
     }
+    
+    public int donkeyWalk(int meters){
+        int steps=0;
+        for(int i=0; i<meters; i++){
+            steps+=2;
+        }
+        return steps;
+    }
 
     @Override
     public int numberOfLegs() {
