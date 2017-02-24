@@ -35,7 +35,7 @@ public class Pig extends Animal {
     }
 
     public void mindOfAPig() {
-        System.out.println("My dream is to be the tastiest BigMac!");
+        System.out.println("My dream is to be the tastiest bacon!");
     }
 
     public String name() {
