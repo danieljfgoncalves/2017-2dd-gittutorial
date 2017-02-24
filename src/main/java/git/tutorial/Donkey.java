@@ -35,5 +35,9 @@ public class Donkey extends Animal {
     public void walk() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+    
+    public void donkeyBackScratch(){
+        System.out.println("roll around the floor");
+    }
 
 }
