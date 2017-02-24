@@ -24,4 +24,8 @@ public class Turkey extends Animal {
     public void walk() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+    
+    public void sleep(){
+        System.out.println("zzzzzzzzzzzzzz");
+    }
 }
