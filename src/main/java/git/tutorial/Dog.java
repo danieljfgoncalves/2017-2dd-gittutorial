@@ -36,4 +36,8 @@ public class Dog extends Animal {
     public void run() {
         System.out.println("tac tac tac tac ...");
     }
+    
+    public Dog giveBirth(){
+        return new Dog();
+    }
 }
