@@ -81,5 +81,12 @@ public class Duck extends Animal {
     public void blink() {
         System.out.println("I'm blinking so hard and I can't stop!");
     }
+    
+    public void play() {
+        System.out.println("Yupiiiiii!");
+    }
 
+    public void swimming() {
+        System.out.println("squah squah!");
+    }
 }
