@@ -27,4 +27,8 @@ public abstract class Animal {
     public boolean isEven(int x) {
         return x % 2 == 0;
     }
+    
+    private int age() {
+    //FIXME this should be abstract
+    }
 }
