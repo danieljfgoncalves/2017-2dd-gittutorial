@@ -11,7 +11,11 @@ package git.tutorial;
  */
 public class Pig extends Animal {
 
-    public Pig() {
+    public String colour(){
+        return "pink";
+    }
+    
+    public Pig () {
     }
 
     public void makeSound(int loudness) {
