@@ -39,5 +39,6 @@ public class Bird extends Animal {
     
     private int beakSize(){
         return SIZE_BEAK;
+
     }
 }

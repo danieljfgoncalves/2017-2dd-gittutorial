@@ -6,6 +6,8 @@ package git.tutorial;
 public class Turkey extends Animal {
 
     private static int LEGS_OF_TURKEY = 9;
+    
+    private static boolean IS_CHRISTMAS = true;
 
     public Turkey() {
     }
@@ -30,7 +32,10 @@ public class Turkey extends Animal {
     }
     
     public void goToDinnerTable() {
-        throw new UnsupportedOperationException("It is not Christmas ou Thanksgiving yet.");
+        if(IS_CHRISTMAS){
+            System.out.println("NOOOOOOOOOOOO");
+        }
+        throw new UnsupportedOperationException("It is not Christmas yet.");
     }
 
     @Override
@@ -39,6 +44,7 @@ public class Turkey extends Animal {
     }
 
     public void sleep() {
+
         System.out.println("zzzzzzzzzzzzzz");
     }
 }

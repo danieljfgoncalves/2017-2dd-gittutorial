@@ -4,9 +4,9 @@
 package git.tutorial;
 
 /**
- *
  * @author Meireles
  * @author Ivo Ferro, 1151159
+ * @author João Cardoso , 1150943
  */
 public class Dog extends Animal {
 
@@ -36,11 +36,12 @@ public class Dog extends Animal {
 
     /**
      * Prints the reaction of the dog to a specific cause
+     *
      * @param cause - cause for the dog's reaction
-     * CAUSE_OWNER = 0;
-     * CAUSE_CAT = 1;
-     * CAUSE_STRANGE_NOISE = 2;
-     * CAUSE_TIRED = 3;
+     *              CAUSE_OWNER = 0;
+     *              CAUSE_CAT = 1;
+     *              CAUSE_STRANGE_NOISE = 2;
+     *              CAUSE_TIRED = 3;
      */
     public static void dogReaction(int cause) {
         switch (cause) {
@@ -68,5 +69,13 @@ public class Dog extends Animal {
 
     public void walk() {
         System.out.println("tuc tuc tuc tuc ...");
+    }
+    
+    public void sleep(int hours) {
+        System.out.println("Dreaming about chasing cats for " + hours + " hours");
+    }
+    
+    public Dog giveBirth(){
+        return new Dog();
     }
 }
