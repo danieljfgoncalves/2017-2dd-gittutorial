@@ -80,4 +80,7 @@ public class Duck extends Animal {
         System.out.println("I'm blinking so hard and I can't stop!");
     }
 
+    public void swimming() {
+        System.out.println("squah squah!");
+    }
 }
