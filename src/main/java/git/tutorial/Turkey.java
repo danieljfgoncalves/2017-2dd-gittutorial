@@ -5,6 +5,8 @@ package git.tutorial;
  */
 public class Turkey extends Animal {
 
+    private static int LEGS_OF_TURKEY = 9;
+
     public Turkey() {
     }
 
@@ -17,6 +19,9 @@ public class Turkey extends Animal {
     }
 
     public int numberOfLegs() {
+        int legs = LEGS_OF_TURKEY;
+        legs = legs + 2;
+        legs = legs - LEGS_OF_TURKEY;
         return 2;
     }
 
