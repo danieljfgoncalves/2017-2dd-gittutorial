@@ -9,9 +9,9 @@ package git.tutorial;
  *
  * @author Pedro Fernandes
  */
-public class Pig extends Animal{
+public class Pig extends Animal {
 
-    public Pig () {
+    public Pig() {
     }
 
     public void makeSound(int loudness) {
@@ -23,6 +23,11 @@ public class Pig extends Animal{
     }
     
     public void size(){
+    }
+
+    @Override
+    public void walk() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
 }
