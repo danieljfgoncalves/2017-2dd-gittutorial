@@ -29,7 +29,7 @@ public abstract class Animal {
     }
 
     public void doSomething() {
-        System.out.println("doing.......");
+        System.out.println("doing...");
     }
 
     private int age() {
