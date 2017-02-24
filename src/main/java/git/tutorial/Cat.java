@@ -25,7 +25,7 @@ public class Cat extends Animal {
     }
 
     public void walk() {
-        
+        System.out.println("MIAU ESTOU A ANDAR HEHEHEHE MIAUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU *(MEOWS IN CATISH)*");
     }
     
     public void eatMouse() {
