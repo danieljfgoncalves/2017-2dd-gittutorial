@@ -9,7 +9,7 @@ package git.tutorial;
  *
  * @author Pedro Fernandes
  */
-public class Pig extends Animal{
+public class Pig extends Animal {
 
     public String colour(){
         return "pink";
@@ -24,6 +24,11 @@ public class Pig extends Animal{
 
     public int numberOfLegs() {
         return 5;
+    }
+
+    @Override
+    public void walk() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
 }
