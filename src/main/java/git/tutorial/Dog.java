@@ -67,4 +67,8 @@ public class Dog extends Animal {
     public void walk() {
         System.out.println("tuc tuc tuc tuc ...");
     }
+    
+    public void sleep(int hours) {
+        System.out.println("Dreaming about chasing cats for " + hours + " hours");
+    }
 }
