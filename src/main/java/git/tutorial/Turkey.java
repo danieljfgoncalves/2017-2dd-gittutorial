@@ -3,11 +3,15 @@ package git.tutorial;
 /**
  * Created by j040_ on 23/02/2017.
  */
-public class Turkey extends Animal{
+public class Turkey extends Animal {
 
     private static int LEGS_OF_TURKEY = 9;
 
     public Turkey() {
+    }
+
+    public Turkey haveChild() {
+        return new Turkey();
     }
 
     public void makeSound(int loudness) {
@@ -19,5 +23,14 @@ public class Turkey extends Animal{
         legs = legs + 2;
         legs = legs - LEGS_OF_TURKEY;
         return 2;
+    }
+
+    @Override
+    public void walk() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+    public void sleep(){
+        System.out.println("zzzzzzzzzzzzzz");
     }
 }

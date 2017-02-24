@@ -22,6 +22,11 @@ public class Pig extends Animal{
         return 5;
     }
 
+    @Override
+    public void walk() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     public void mindOfAPig(){
         System.out.println("My dream is to be the tastiest BigMac!");
     }

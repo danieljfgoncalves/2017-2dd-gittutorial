@@ -22,4 +22,9 @@ public class Sheep extends Animal {
             System.out.println("Very Very Badass conflict");
         }
     }
+    @Override
+    public void walk() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
 }
