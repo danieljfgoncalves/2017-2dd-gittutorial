@@ -41,4 +41,9 @@ public class Donkey extends Animal{
         System.out.println("roll around the floor");
     }
 
+    public int donkeyAge(int age) {
+
+        return age * 9;
+    }
+
 }
