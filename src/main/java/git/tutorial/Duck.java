@@ -83,7 +83,7 @@ public class Duck extends Animal {
     }
     
     public void play() {
-        System.out.println("Yupiiiiii!");
+        System.out.println("*Catching the ball like a poppy*");
     }
 
     public void swimming() {
