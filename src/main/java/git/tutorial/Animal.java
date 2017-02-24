@@ -14,6 +14,10 @@ public abstract class Animal {
     public Animal() {
     }
 
+    public boolean isOdd(int x) {
+        return x % 2 != 0;
+    }
+    
     public abstract void makeSound(int loudness);
 
     public abstract int numberOfLegs();
