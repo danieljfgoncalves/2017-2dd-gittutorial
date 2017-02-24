@@ -21,5 +21,8 @@ public class Pig extends Animal{
     public int numberOfLegs() {
         return 5;
     }
+    
+    public void size(){
+    }
 
 }
