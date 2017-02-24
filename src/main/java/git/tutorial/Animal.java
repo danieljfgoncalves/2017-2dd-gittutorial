@@ -19,4 +19,8 @@ public abstract class Animal {
     public abstract int numberOfLegs();
 
     public abstract void walk();
+
+    public boolean isEven(int x) {
+        return x % 2 == 0;
+    }
 }
