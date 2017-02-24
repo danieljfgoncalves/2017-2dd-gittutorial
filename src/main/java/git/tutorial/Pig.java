@@ -39,7 +39,7 @@ public class Pig extends Animal {
     }
 
     public String name() {
-        return "spider pig";
+        return "Spider pig";
     }
     
     public void food(){
