@@ -14,6 +14,7 @@ public abstract class Animal {
     public Animal() {
     }
 
+    // some doc
     public boolean isOdd(int x) {
         return x % 2 != 0;
     }
@@ -32,6 +33,11 @@ public abstract class Animal {
         System.out.println("doing something...");
     }
 
+    /**
+     * returns the age of the animal
+     *
+     * @return
+     */
     private int age() {
         //FIXME this should be abstract
         throw new UnsupportedOperationException();
