@@ -25,11 +25,12 @@ public class Cat extends Animal {
     }
 
     public void walk() {
-        
+        System.out.println("walks very fast");
     }
     
     public void eatMouse() {
         System.out.println("hmmmmmmmmmmmmm taaaaaaastyyyyyyy");
+        System.out.println("To much fur");
     }
 
     public void blablaTest(){

@@ -16,6 +16,7 @@ public abstract class Animal {
 
     // some doc
     public boolean isOdd(int x) {
+        System.out.println("Comentário qualquer!!!");
         return x % 2 != 0;
     }
 
