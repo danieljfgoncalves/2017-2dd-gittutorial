@@ -17,4 +17,6 @@ public abstract class Animal {
     public abstract void makeSound(int loudness);
 
     public abstract int numberOfLegs();
+
+    public abstract void walk();
 }
