@@ -17,7 +17,7 @@ public abstract class Animal {
     public boolean isOdd(int x) {
         return x % 2 != 0;
     }
-    
+
     public abstract void makeSound(int loudness);
 
     public abstract int numberOfLegs();
@@ -26,5 +26,9 @@ public abstract class Animal {
 
     public boolean isEven(int x) {
         return x % 2 == 0;
+    }
+
+    public void doSomething() {
+        System.out.println("doing.......");
     }
 }
