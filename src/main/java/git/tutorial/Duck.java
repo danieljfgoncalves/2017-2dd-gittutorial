@@ -12,7 +12,11 @@ public class Duck extends Animal {
     private static final int LEGS_NUMBER = 2;
 
     private String owner;
-
+    
+    private String a;
+    
+    private String b;
+    
     public Duck() {
         size = 30;
         owner = "Miguel";
