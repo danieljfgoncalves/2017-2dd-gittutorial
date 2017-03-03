@@ -9,13 +9,31 @@ package git.tutorial;
  *
  * @author Meireles
  */
-public class Dog extends Animal{
+public class Dog extends Animal {
+
+    private int numberOfLegs;
 
     public Dog() {
+        numberOfLegs = 4;
     }
 
     @Override
-    public void makeSound() {
-        System.out.println("au au");
+    public void makeSound(int loudness) {
+        //TODO not all dogs bark the same way
+        System.out.println("Auff auff");
+    }
+
+
+    public void whipTail(int howMuch){
+        System.out.printf("I'll whip my tail %d times!", howMuch);
+    }
+
+    @Override
+    public int numberOfLegs() {
+        return numberOfLegs;
+    }
+    
+    public void run() {
+        System.out.println("tac tac tac tac ...");
     }
 }

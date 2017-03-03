@@ -14,8 +14,13 @@ public class Donkey extends Animal{
     public Donkey() {
     }
     
-    public void makeSound() {
+    public void makeSound(int loudness) {
     System.out.println("ió ió");
+    }
+
+    @Override
+    public int numberOfLegs() {
+        return 4;
     }
     
 }
