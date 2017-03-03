@@ -16,6 +16,7 @@ public class Cricket extends Animal {
     private void test() {
         String x = "test";
         String y = "new";
+        int i = 0;
     }
 
     public Cricket() {
@@ -26,7 +27,7 @@ public class Cricket extends Animal {
     }
 
     private void something() {
-        //this is just a demo
+        System.out.println("This is something");
     }
 
     public int numberOfAntenas() {
@@ -41,5 +42,12 @@ public class Cricket extends Animal {
     private void nova() {
         int y = 0;
         y++;
+        y++;
+        y--;
+    }
+
+    @Override
+    public void walk() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }

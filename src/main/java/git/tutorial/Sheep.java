@@ -16,4 +16,15 @@ public class Sheep extends Animal {
         return 4;
     }
 
+
+    public void forTheConflict(int howBad){
+        for(int i = 0; i < howBad;i++){
+            System.out.println("Very Very Badass conflict");
+        }
+    }
+    @Override
+    public void walk() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
 }
